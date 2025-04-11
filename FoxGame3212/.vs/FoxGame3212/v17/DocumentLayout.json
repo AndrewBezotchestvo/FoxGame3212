@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|f:\\github\\foxgame3212\\foxgame3212\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|F:\\GitHub\\FoxGame3212\\FoxGame3212\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\CameraController.cs",
               "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\scripts\\CameraController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T15:38:42.727Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMove.cs",
               "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerMove.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T15:00:15.94Z",
               "EditorCaption": ""

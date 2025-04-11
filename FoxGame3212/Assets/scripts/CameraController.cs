@@ -13,7 +13,7 @@ public class CameraController : MonoBehaviour
         offset = new Vector2(Mathf.Abs(offset.x), offset.y);
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (player)
         {

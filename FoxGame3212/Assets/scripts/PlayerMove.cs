@@ -2,19 +2,21 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float _speed;
-    public float _jumpForce;
-    public float _attachForce;
-    public float _attachTime;
+    [SerializeField] private float _speed;
+    [SerializeField] private float _jumpForce;
+    [SerializeField] private float _attachForce;
+    [SerializeField] private float _attachTime;
 
     private float _time;
     private bool _attached;
+    private bool _isGround;
 
     private Rigidbody2D _rb;
     private Vector3 _movement;
 
     private void Start()
     {
+        _isGround = true;
        _rb = GetComponent<Rigidbody2D>();
     }
 
@@ -23,18 +25,21 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             _movement.x = _speed;
+            transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else if (Input.GetKey(KeyCode.A))
         {
             _movement.x = -_speed;
+            transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else
         {
             _movement.x = 0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && _isGround)
         {
+            _isGround = false;
             _movement.y = _jumpForce;
             _rb.velocity = _movement;
         }
@@ -47,7 +52,15 @@ public class PlayerMove : MonoBehaviour
         if (_attached)
         {
             _time += Time.deltaTime;
-            _movement.x = _attachForce;
+
+            if(transform.rotation.y == 0)
+            {
+                _movement.x = _attachForce; 
+            }
+            else
+            {
+                _movement.x = -_attachForce;
+            }
 
             if (_time > _attachTime)
             {
@@ -57,5 +70,13 @@ public class PlayerMove : MonoBehaviour
 
         _movement.y = _rb.velocity.y;
         _rb.velocity = _movement;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "ground")
+        {
+            _isGround = true;
+        }
     }
 }
