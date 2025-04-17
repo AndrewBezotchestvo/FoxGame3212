@@ -9,7 +9,7 @@ public class PlayerMove : MonoBehaviour
 
     private float _time;
     private bool _attached;
-    private bool _isGround;
+    public bool _isGround;
 
     private Rigidbody2D _rb;
     private Vector3 _movement;
