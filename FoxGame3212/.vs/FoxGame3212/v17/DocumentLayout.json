@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|f:\\github\\foxgame3212\\foxgame3212\\assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|F:\\GitHub\\FoxGame3212\\FoxGame3212\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|f:\\github\\foxgame3212\\foxgame3212\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|f:\\github\\foxgame3212\\foxgame3212\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|F:\\GitHub\\FoxGame3212\\FoxGame3212\\assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|F:\\GitHub\\FoxGame3212\\FoxGame3212\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PauseController.cs",
+              "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PauseController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PauseController.cs",
+              "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PauseController.cs",
+              "RelativeToolTip": "Assets\\scripts\\PauseController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:47:58.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameController.cs",
+              "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:27:22.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerAnimation.cs",
               "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PlayerAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerAnimation.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "Assets\\scripts\\PlayerAnimation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:45:58.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T14:45:58.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CameraController.cs",
               "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CameraController.cs",
@@ -55,15 +88,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMove.cs",
               "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:00:15.94Z"
+              "WhenOpened": "2025-04-04T15:00:15.94Z",
+              "EditorCaption": ""
             }
           ]
         }
