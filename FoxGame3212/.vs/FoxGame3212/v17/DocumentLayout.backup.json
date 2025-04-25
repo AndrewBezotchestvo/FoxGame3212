@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|f:\\github\\foxgame3212\\foxgame3212\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|F:\\GitHub\\FoxGame3212\\FoxGame3212\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|f:\\github\\foxgame3212\\foxgame3212\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|F:\\GitHub\\FoxGame3212\\FoxGame3212\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|f:\\github\\foxgame3212\\foxgame3212\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|F:\\GitHub\\FoxGame3212\\FoxGame3212\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF40719B-1438-9098-6984-FEB1CDA5BAD8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PauseController.cs",
-              "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PauseController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\PauseController.cs",
-              "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PauseController.cs",
-              "RelativeToolTip": "Assets\\scripts\\PauseController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EnemyController.cs",
+              "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\scripts\\EnemyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:47:58.145Z",
+              "WhenOpened": "2025-04-23T15:37:26.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PauseController.cs",
+              "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PauseController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PauseController.cs",
+              "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PauseController.cs",
+              "RelativeToolTip": "Assets\\scripts\\PauseController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:47:58.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameController.cs",
               "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\GameController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameController.cs",
@@ -59,12 +75,11 @@
               "RelativeToolTip": "Assets\\scripts\\GameController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:27:22.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T15:27:22.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerAnimation.cs",
               "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PlayerAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerAnimation.cs",
@@ -76,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CameraController.cs",
               "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CameraController.cs",
@@ -88,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMove.cs",
               "ToolTip": "F:\\GitHub\\FoxGame3212\\FoxGame3212\\Assets\\scripts\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerMove.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowEcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T15:00:15.94Z",
               "EditorCaption": ""
