@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1701,6 +1701,7 @@ GameObject:
   - component: {fileID: 733742305}
   - component: {fileID: 733742306}
   - component: {fileID: 733742307}
+  - component: {fileID: 733742308}
   m_Layer: 0
   m_Name: player-idle-1
   m_TagString: Player
@@ -1831,7 +1832,7 @@ Transform:
   m_GameObject: {fileID: 733742300}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.45, y: -1.63, z: 0}
+  m_LocalPosition: {x: 10.61, y: -0.46, z: 0}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1887,6 +1888,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a111945332b5926409be8fa973b46dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &733742308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733742300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040121239277f394a96eb85ea17bf527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hp: 100
+  _damage: 5
+  _slider: {fileID: 732977269}
+  _radius: 1
 --- !u!1 &1034237080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,8 +1939,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _searchDistance: 10
   _moveSpeed: 5
-  attackDistance: 3
-  _slider: {fileID: 0}
+  attackDistance: 1
+  _slider: {fileID: 38912523}
   _timeAttackDelay: 1
   _player: {fileID: 733742300}
 --- !u!95 &1034237082

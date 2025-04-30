@@ -121,8 +121,8 @@ public class EnemyController : MonoBehaviour
         {
             if (Vector3.Distance(_player.transform.position, transform.position) <= attackDistance)
             {
-                _animator.SetBool("Attack", true);
-                _animator.SetFloat("Speed", 0);
+                //_animator.SetBool("Attack", true);
+                //_animator.SetFloat("Speed", 0);
 
                 if (_time >= _timeAttackDelay)
                 {
